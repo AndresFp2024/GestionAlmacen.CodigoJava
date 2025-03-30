@@ -1,0 +1,6 @@
+projectKey=GestionAlmacen
+serverUrl=http://localhost:9000
+serverVersion=25.2.0.102705
+dashboardUrl=http://localhost:9000/dashboard?id=GestionAlmacen
+ceTaskId=edd2a3ea-ae17-4f9a-8def-45e64410967d
+ceTaskUrl=http://localhost:9000/api/ce/task?id=edd2a3ea-ae17-4f9a-8def-45e64410967d
