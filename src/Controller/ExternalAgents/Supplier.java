@@ -2,29 +2,61 @@ package Controller.ExternalAgents;
 
 import java.io.Serializable;
 
-public class Supplier implements Serializable{
+/**
+ * Clase Supplier.
+ * Representa un proveedor que suministra productos al sistema.
+ * Contiene información básica como el nombre y el identificador del proveedor.
+ * Implementa Serializable para permitir su persistencia.
+ */
+public class Supplier implements Serializable {
 
-	private String name;
-	private String id;
+    /** Nombre del proveedor */
+    private String name;
 
-	public Supplier(String name, String id) {
-		this.name=name;
-		this.id=id;
-		
-	}
-	public void setName(String name){
-		this.name=name;
-	}
-	public String getName(){
-		return name;
-	}
-	public void setId(String id){
-		this.id=id;
-	}
-	public String getId(){
-		return id;
-	}
-	
-	
+    /** Identificador del proveedor */
+    private String id;
 
+    /**
+     * Constructor de la clase Supplier.
+     * Inicializa un proveedor con su nombre e identificador.
+     * 
+     * @param name nombre del proveedor
+     * @param id identificador del proveedor
+     */
+    public Supplier(String name, String id) {
+        this.name = name;
+        this.id = id;
+    }
+
+    /**
+     * Establece el nombre del proveedor.
+     * @param name nuevo nombre
+     */
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    /**
+     * Devuelve el nombre del proveedor.
+     * @return nombre del proveedor
+     */
+    public String getName() {
+        return name;
+    }
+
+    /**
+     * Establece el identificador del proveedor.
+     * @param id nuevo identificador
+     */
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    /**
+     * Devuelve el identificador del proveedor.
+     * @return identificador del proveedor
+     */
+    public String getId() {
+        return id;
+    }
 }
